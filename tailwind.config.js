@@ -8,8 +8,12 @@ module.exports = {
       },
       colors:{
         'black-grey':'#333',
-        'veish':'#fdf2ff'
-      }
+        'veish':'#fdf2ff',
+        'color-purple': '#3023AE'
+      },
+      backgroundImage: theme => ({
+        'footer-texture': "url('./src/image/background.png')",
+       })
     },
   },
   variants: {
